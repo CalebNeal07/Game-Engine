@@ -1,3 +1,11 @@
 # ninja log v5
-0	262	7253996912184092	CMakeFiles/Game_Engine.dir/main.cpp.obj	5fa0fc27258b34d4
 264	351	7253996913046145	Game_Engine.exe	9b48d9dff0060566
+0	94	7254939365318601	CMakeFiles/Game_Lib.dir/core/graphics/camera/Camera.cpp.obj	9efae67dffc122ec
+9	98	7254939365318601	CMakeFiles/Game_Editor.dir/core/graphics/renderer/vulkan/VulkanPathTracedRenderer.cpp.obj	3eae0bbb6ca87c2f
+22	99	7254939365318601	CMakeFiles/Game_Editor.dir/core/graphics/renderer/vulkan/VulkanClassicalRenderer.cpp.obj	8d5ee0187a27dc19
+6	2314	7254941424585360	CMakeFiles/Game_Editor.dir/editor/main.cpp.obj	510f07208e6a408
+4	99	7254939365313599	CMakeFiles/Game_Editor.dir/core/graphics/renderer/vulkan/VulkanMeshShaderRenderer.cpp.obj	dff22f6b4cf82507
+18	3264	7254939397012233	CMakeFiles/Game_Editor.dir/core/graphics/renderer/vulkan/Vulkan2DRenderer.cpp.obj	9ffc4ad67ab19821
+2	43	7254941065647118	CMakeFiles/Game_Lib.dir/core/graphics/renderer/vulkan/VulkanMeshShaderRenderer.cpp.obj	f9b682b0b719f1c0
+7	46	7254941065677805	CMakeFiles/Game_Lib.dir/core/graphics/renderer/vulkan/VulkanPathTracedRenderer.cpp.obj	673d60877b7ca684
+14	53	7254941065747849	CMakeFiles/Game_Lib.dir/core/graphics/renderer/vulkan/VulkanClassicalRenderer.cpp.obj	c25d7613491af23e

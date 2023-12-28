@@ -1,3 +1,4 @@
-C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/CMakeFiles/Game_Engine.dir
+C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/CMakeFiles/Game_Lib.dir
+C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/CMakeFiles/Game_Editor.dir
 C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
