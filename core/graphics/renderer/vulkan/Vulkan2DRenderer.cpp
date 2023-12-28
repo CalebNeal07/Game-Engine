@@ -6,7 +6,7 @@
 
 #include <SDL2/SDL_vulkan.h>
 
-Vulkan2DRenderer::Vulkan2DRenderer(RendererConfig config) {
+Vulkan2DRenderer::Vulkan2DRenderer(const RendererConfig &config) {
     this->window = SDL_CreateWindow(
         config.window_title,
         config.window_x, config.window_y,
@@ -26,4 +26,13 @@ Vulkan2DRenderer::Vulkan2DRenderer(RendererConfig config) {
        this->window, this->vulkan, &this->vk_surface
     );
 }
+
+Vulkan2DRenderer::~Vulkan2DRenderer() {
+    vkDestroyInstance(this->vulkan, nullptr);
+    SDL_DestroyWindow(this->window);
+}
+
+void Vulkan2DRenderer::render() {}
+
+
 

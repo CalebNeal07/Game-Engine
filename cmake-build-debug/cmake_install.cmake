@@ -32,9 +32,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/Caleb/AppData/Local/Programs/CLion Nova/bin/mingw/bin/objdump.exe")
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/core/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/editor/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
