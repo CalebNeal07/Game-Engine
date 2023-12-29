@@ -1,7 +1,17 @@
 cmake_minimum_required(VERSION 3.27)
 project(GameLib)
 
-add_library(GameLib STATIC)
+add_library(GameLib STATIC
+        graphics/renderer/direct3d/Direct3DRasterizedRenderer.cpp
+        graphics/renderer/direct3d/Direct3DRasterizedRenderer.hpp
+        graphics/renderer/direct3d/Direct3DRasterizedRenderer.hpp
+        graphics/renderer/direct3d/Direct3DPathTracedRenderer.cpp
+        graphics/renderer/direct3d/Direct3DPathTracedRenderer.hpp
+        graphics/renderer/direct3d/DirectX2DRenderer.cpp
+        graphics/renderer/direct3d/DirectX2DRenderer.hpp
+        Engine.cpp
+        Engine.hpp)
+
 
 target_include_directories(GameLib
         PUBLIC ${VULKAN_INCLUDE_DIRS}
@@ -17,8 +27,8 @@ target_sources(GameLib
         PUBLIC graphics/renderer/vulkan/VulkanPathTracedRenderer.hpp
         PUBLIC graphics/renderer/vulkan/Vulkan2DRenderer.cpp
         PUBLIC graphics/renderer/vulkan/Vulkan2DRenderer.hpp
-        PUBLIC graphics/renderer/vulkan/VulkanClassicalRenderer.cpp
-        PUBLIC graphics/renderer/vulkan/VulkanClassicalRenderer.hpp
+        PUBLIC graphics/renderer/vulkan/VulkanRasterizedRenderer.cpp
+        PUBLIC graphics/renderer/vulkan/VulkanRasterizedRenderer.hpp
 )
 
 target_link_libraries(GameLib

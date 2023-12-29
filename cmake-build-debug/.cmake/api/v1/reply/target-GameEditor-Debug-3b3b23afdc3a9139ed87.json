@@ -310,12 +310,12 @@
 		{
 			"backtrace" : 3,
 			"compileGroupIndex" : 0,
-			"path" : "core/graphics/renderer/vulkan/VulkanClassicalRenderer.cpp",
+			"path" : "core/graphics/renderer/vulkan/VulkanRasterizedRenderer.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 3,
-			"path" : "core/graphics/renderer/vulkan/VulkanClassicalRenderer.hpp",
+			"path" : "core/graphics/renderer/vulkan/VulkanRasterizedRenderer.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],
