@@ -4,11 +4,16 @@
 
 #ifndef VULKANPATHTRACEDRENDERER_HPP
 #define VULKANPATHTRACEDRENDERER_HPP
+#include <SDL_video.h>
+
+#include "graphics/renderer/Renderer.hpp"
 
 
-
-class VulkanPathTracedRenderer {
-
+class VulkanPathTracedRenderer final : public Renderer {
+public:
+    VulkanPathTracedRenderer(SDL_Window*, const char*);
+    ~VulkanPathTracedRenderer() override;
+    void render() override;
 };
 
 

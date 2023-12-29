@@ -1,8 +1,0 @@
-C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/core/CMakeFiles/GameLib.dir
-C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/core/CMakeFiles/edit_cache.dir
-C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/core/CMakeFiles/rebuild_cache.dir
-C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/editor/CMakeFiles/GameEditor.dir
-C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/editor/CMakeFiles/edit_cache.dir
-C:/Users/Caleb/Dev/Game-Engine/cmake-build-debug/editor/CMakeFiles/rebuild_cache.dir

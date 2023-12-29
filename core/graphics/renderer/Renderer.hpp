@@ -14,16 +14,5 @@ public:
 };
 
 
-struct RendererConfig {
-    const char* window_title;
-    int window_height;
-    int window_width;
-    int window_x;
-    int window_y;
-    bool fullscreen;
-    bool resizable;
-};
-
-
 
 #endif //RENDERER_HPP

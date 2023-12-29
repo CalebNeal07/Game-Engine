@@ -4,11 +4,16 @@
 
 #ifndef VULKANMESHSHADERRENDERER_HPP
 #define VULKANMESHSHADERRENDERER_HPP
+#include <SDL_video.h>
+
+#include "graphics/renderer/Renderer.hpp"
 
 
-
-class VulkanMeshShaderRenderer {
-
+class VulkanMeshShaderRenderer final : public Renderer {
+public:
+    VulkanMeshShaderRenderer(SDL_Window*, const char*);
+    ~VulkanMeshShaderRenderer() override;
+    void render() override;
 };
 
 

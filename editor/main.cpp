@@ -1,16 +1,13 @@
-#include <SDL2/SDL.h>
+#include <PhantomEngine.hpp>
 
-#include <graphics/renderer/vulkan/Vulkan2DRenderer.hpp>
-
-int main(int argv, char** args) {
-    SDL_Init(SDL_INIT_EVERYTHING);
-
-    auto renderer = Vulkan2DRenderer(
-        RendererConfig{
-            "Vulkan Test",
-            855, 1520,
+int main(int argc, char** argv) {
+    PhantomEngine engine(
+        VULKAN_2D,
+        WindowConfig{
+            "Vulkan 2D Test",
             SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
-            false, true
+            1600, 900,
+            false, false, false
         }
     );
 
